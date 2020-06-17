@@ -16,23 +16,4 @@ public class ConpubApplication {
 		SpringApplication.run(ConpubApplication.class, args);
 	}
 
-	@Bean
-	public CommandLineRunner initData(MemberRepository memberRepository, BoardRepository boardRepository) {
-		return args ->
-				IntStream.rangeClosed(1, 154).forEach(i -> {
-					MemberEntity user =  MemberEntity.builder()
-							.name("tester" + i)
-							.build();
-
-					memberRepository.save(user);
-
-					BoardEntity board = BoardEntity.builder()
-							.title("test" + i)
-							.writer(user)
-							.build();
-
-					boardRepository.save(board);
-				});
-	}
-
 }

@@ -20,6 +20,7 @@ public class BoardController {
     @Autowired
     BoardService boardService;
 
+    /*
     @GetMapping({"", "/"})
     public String board(@RequestParam(value="idx", defaultValue = "0") Long idx,
                         Model model) {
@@ -35,4 +36,5 @@ public class BoardController {
 
         return "/board/list";
     }
+    */
 }

@@ -14,8 +14,7 @@ public class BoardService {
 
     @Autowired
     private BoardRepository boardRepository;
-
-
+    /*
     public Page<Board> findBoardList(Pageable pageable) {
         pageable = PageRequest.of(
                 pageable.getPageNumber() <= 0 ? 0 : pageable.getPageNumber()-1,
@@ -26,5 +25,6 @@ public class BoardService {
     public Board findBoardByIdx(Long idx) {
         return boardRepository.findById(idx).orElse(new Board());
     }
+     */
 }
 

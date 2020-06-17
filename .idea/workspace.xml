@@ -25,10 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c16a36-6d5d-426f-953a-527fcec3035d" name="Default Changelist" comment="Add product Portfolio view file">
+    <list default="true" id="78c16a36-6d5d-426f-953a-527fcec3035d" name="Default Changelist" comment="Update BoardController">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/MemberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/ConpubApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/ConpubApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/BoardService.java" afterDir="false" />
     </list>
     <list id="4e5348a5-e72a-4b7d-a736-571b4c6f759b" name="Revert &quot;initial commit&quot;" comment="Revert &quot;initial commit&quot;&#10;&#10;This reverts commit 8a7f0e2a" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +152,7 @@
       <workItem from="1592210472408" duration="527000" />
       <workItem from="1592266416302" duration="211000" />
       <workItem from="1592266717969" duration="2582000" />
-      <workItem from="1592363751128" duration="10112000" />
+      <workItem from="1592363751128" duration="10985000" />
     </task>
     <task id="LOCAL-00001" summary="comm">
       <created>1591863399057</created>
@@ -256,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592375120873</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update BoardController">
+      <created>1592378723056</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1592378723056</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +363,8 @@
     <MESSAGE value="Add domains, repositories and services &#10;&#10;It provides save functions." />
     <MESSAGE value="Add bootstrap and view pages&#10;&#10;bootstrap version 4.0" />
     <MESSAGE value="Add product Portfolio view file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add product Portfolio view file" />
+    <MESSAGE value="Update BoardController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update BoardController" />
   </component>
   <component name="WindowStateProjectService">
     <state x="891" y="425" width="552" height="221" key="#Assign_Data_Sources" timestamp="1592375905156">
