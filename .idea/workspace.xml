@@ -6,72 +6,35 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c16a36-6d5d-426f-953a-527fcec3035d" name="Default Changelist" comment="Add domains, repositories and services &#10;&#10;It provides save functions." />
-    <list id="4e5348a5-e72a-4b7d-a736-571b4c6f759b" name="Revert &quot;initial commit&quot;" comment="Revert &quot;initial commit&quot;&#10;&#10;This reverts commit 8a7f0e2a">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/ConpubApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Delivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Faq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Mileage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/OptionList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/OrderStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Reply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Review.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/SelectedOption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/SelectedStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/SiteImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/YesNo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/BoardRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/CartRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/DeliveryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/FaqRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/ItemRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/MileageRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/OptionListRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/OrderRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/ReplyRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/ReviewRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/SelectedOptionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/SiteImageRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/BoardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/DeliveryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/FaqService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/ItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/MileageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/OptionListService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/ReplyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/ReviewService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/SelectedOptionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/SiteImageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pubble/conpub/ConpubApplicationTests.java" beforeDir="false" />
+    <list default="true" id="78c16a36-6d5d-426f-953a-527fcec3035d" name="Default Changelist" comment="Add domains, repositories and services &#10;&#10;It provides save functions.">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2020-06-15__12_39__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2020-06-15__12_39__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <list id="4e5348a5-e72a-4b7d-a736-571b4c6f759b" name="Revert &quot;initial commit&quot;" comment="Revert &quot;initial commit&quot;&#10;&#10;This reverts commit 8a7f0e2a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +112,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workspace(boot)/boot-jpa" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -186,6 +149,7 @@
       <workItem from="1592210472408" duration="527000" />
       <workItem from="1592266416302" duration="211000" />
       <workItem from="1592266717969" duration="2582000" />
+      <workItem from="1592363751128" duration="489000" />
     </task>
     <task id="LOCAL-00001" summary="comm">
       <created>1591863399057</created>
@@ -313,17 +277,6 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
             </State>
           </value>
         </entry>
@@ -401,10 +354,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592192265785" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592268362137">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="778" y="286" key="FileChooserDialogImpl" timestamp="1592364228467">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592268362137" />
+    <state x="778" y="286" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1592364228467" />
     <state x="751" y="386" key="Github.CreatePullRequestDialog" timestamp="1591933082900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -517,10 +471,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592192256182" />
-    <state x="760" y="419" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1592266526648">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="797" y="435" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1592363864922">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="760" y="419" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592266526648" />
+    <state x="797" y="435" key="git4idea.remote.GitConfigureRemotesDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1592363864922" />
     <state x="773" y="414" key="git4idea.ui.GitResetDialog" timestamp="1592268022234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
