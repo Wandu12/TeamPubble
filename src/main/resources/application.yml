@@ -19,6 +19,11 @@ spring:
     cache: false
     #서버 재시작 안하고 쓸 수 있음.
 
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
 logging.level:
   #JPA에서 발생하는 쿼리문을 로그파일로 보여주는 옵션
   org.hibernate.SQL: debug

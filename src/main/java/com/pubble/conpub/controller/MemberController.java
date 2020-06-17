@@ -13,17 +13,23 @@ import java.util.List;
 public class MemberController {
 
     @Autowired
-    private MemberRepository memberRepository;
+    private MemberService memberService;
 
-    // 전체 회원 조회 메서드
-    public List<Member> findMembers() {
-        return memberRepository.findAll();
+    @GetMapping("/member_list")
+    public String member_list(Model model) {
+
+        List<Member> members = memberService.findMembers();
+        model.addAttribute("List", members);
+
+        return "admin_member";
     }
 
-    // 특정 회원 조회 메서드
-    public Member findOne(Long id) {
-        return memberRepository.findOne(id);
+    @GetMapping("member_info")
+    public String member_info(Model model, @RequestParam("id") Long id) {
+
+        Member member = memberService.findOne(id);
+        model.addAttribute("One", member);
+
+        return "admin_member_infos";
     }
-
-
 }
