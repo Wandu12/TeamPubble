@@ -19,21 +19,13 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:develop" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c16a36-6d5d-426f-953a-527fcec3035d" name="Default Changelist" comment="Add domains, repositories and services &#10;&#10;It provides save functions.">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2020-06-15__12_39__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2020-06-15__12_39__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="78c16a36-6d5d-426f-953a-527fcec3035d" name="Default Changelist" comment="Add domains, repositories and services &#10;&#10;It provides save functions." />
     <list id="4e5348a5-e72a-4b7d-a736-571b4c6f759b" name="Revert &quot;initial commit&quot;" comment="Revert &quot;initial commit&quot;&#10;&#10;This reverts commit 8a7f0e2a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +141,7 @@
       <workItem from="1592210472408" duration="527000" />
       <workItem from="1592266416302" duration="211000" />
       <workItem from="1592266717969" duration="2582000" />
-      <workItem from="1592363751128" duration="489000" />
+      <workItem from="1592363751128" duration="794000" />
     </task>
     <task id="LOCAL-00001" summary="comm">
       <created>1591863399057</created>
@@ -235,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592267468566</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add domains, repositories and services &#10;&#10;It provides save functions.">
+      <created>1592364465305</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1592364465305</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +274,17 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -319,6 +329,7 @@
     <MESSAGE value="2020.06.15-2" />
     <MESSAGE value="2020.06.15 Domains" />
     <MESSAGE value="Add domains, repositories and services &#10;&#10;It provides save functions." />
+    <MESSAGE value="Add bootstrap and view pages&#10;&#10;bootstrap version 4.0" />
     <option name="LAST_COMMIT_MESSAGE" value="Add domains, repositories and services &#10;&#10;It provides save functions." />
   </component>
   <component name="WindowStateProjectService">
@@ -359,6 +370,10 @@
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592268362137" />
     <state x="778" y="286" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1592364228467" />
+    <state x="401" y="450" key="GitRewordDialog" timestamp="1592364539952">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="401" y="450" key="GitRewordDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1592364539952" />
     <state x="751" y="386" key="Github.CreatePullRequestDialog" timestamp="1591933082900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
