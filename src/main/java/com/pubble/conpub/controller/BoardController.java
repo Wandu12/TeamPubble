@@ -30,7 +30,7 @@ public class BoardController {
     @GetMapping("/list")
     public String list(@PageableDefault Pageable pageable, Model model) {
         Page<Board> boardList = boardService.findBoardList(pageable);
-        boardList.stream().forEach(e -> e.getContent());
+        boardList.stream().forEach(e -> e.getContent()); //getContent 구현 필요
         model.addAttribute("boardList", boardList);
 
         return "/board/list";

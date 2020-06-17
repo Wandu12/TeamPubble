@@ -25,13 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c16a36-6d5d-426f-953a-527fcec3035d" name="Default Changelist" comment="Add bootstrap and view pages&#10;&#10;bootstrap version 4.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productPortfolio.jsp" afterDir="false" />
+    <list default="true" id="78c16a36-6d5d-426f-953a-527fcec3035d" name="Default Changelist" comment="Add product Portfolio view file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/ConpubApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/ConpubApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/BoardController.java" afterDir="false" />
     </list>
     <list id="4e5348a5-e72a-4b7d-a736-571b4c6f759b" name="Revert &quot;initial commit&quot;" comment="Revert &quot;initial commit&quot;&#10;&#10;This reverts commit 8a7f0e2a" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +149,7 @@
       <workItem from="1592210472408" duration="527000" />
       <workItem from="1592266416302" duration="211000" />
       <workItem from="1592266717969" duration="2582000" />
-      <workItem from="1592363751128" duration="7445000" />
+      <workItem from="1592363751128" duration="10112000" />
     </task>
     <task id="LOCAL-00001" summary="comm">
       <created>1591863399057</created>
@@ -252,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592364885487</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add product Portfolio view file">
+      <created>1592375120873</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592375120873</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,14 +352,15 @@
     <MESSAGE value="2020.06.15 Domains" />
     <MESSAGE value="Add domains, repositories and services &#10;&#10;It provides save functions." />
     <MESSAGE value="Add bootstrap and view pages&#10;&#10;bootstrap version 4.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add bootstrap and view pages&#10;&#10;bootstrap version 4.0" />
+    <MESSAGE value="Add product Portfolio view file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add product Portfolio view file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="891" y="425" width="552" height="221" key="#Assign_Data_Sources" timestamp="1592371415476">
+    <state x="891" y="425" width="552" height="221" key="#Assign_Data_Sources" timestamp="1592375905156">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="857" y="409" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1591941971700" />
-    <state x="891" y="425" width="552" height="221" key="#Assign_Data_Sources/62.0.1858.1080@62.0.1858.1080" timestamp="1592371415476" />
+    <state x="891" y="425" width="552" height="221" key="#Assign_Data_Sources/62.0.1858.1080@62.0.1858.1080" timestamp="1592375905156" />
     <state x="552" y="178" width="1115" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592201093645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -520,6 +525,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="414" key="git4idea.ui.GitResetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592268022234" />
+    <state x="354" y="289" key="refactoring.ChangeSignatureDialog" timestamp="1592376291812">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="354" y="289" key="refactoring.ChangeSignatureDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1592376291812" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592269209698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
