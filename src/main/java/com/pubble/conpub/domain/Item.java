@@ -29,7 +29,7 @@ public class Item {
 
     private String itemName;
 
-    @Column(nullable = false, precision = 12, scale = 1)
+    @Column(precision = 12, scale = 1)
     private BigDecimal itemBasePrice;
 
     private String itemImage1;
@@ -49,37 +49,36 @@ public class Item {
 
     @OneToMany(mappedBy = "reviewItem")
     private List<Review> reviews = new ArrayList<Review>();
-
-    private int sizeCheck;
-
-    private int paperCheck;
-
-    private int pageCheck;
-
-    private int bindingCheck;
-
-    private int bindingDirectionCheck;
-
-    private int coverColorCheck;
-
-    private int coverSideCheck;
-
-    private int coverTypeCheck;
-
-    private int coverCoatingCheck;
-
-    private int textColorCheck;
-
-    private int textBothSidesCheck;
-
-    private int annalsCoverColorCheck;
-
-    private int hardGoldCheck;
-
-    private int signaturePageCheck;
-
-    private int amount;
+    @Enumerated(EnumType.STRING)
+    private YesNo sizeCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo paperCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo pageCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo bindingCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo bindingDirectionCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo coverColorCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo coverSideCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo coverTypeCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo coverCoatingCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo textColorCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo textBothSidesCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo annalsCoverColorCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo hardGoldCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo signaturePageCheck;
+    @Enumerated(EnumType.STRING)
+    private YesNo amountCheck;
 
 }
-
 

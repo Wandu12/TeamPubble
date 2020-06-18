@@ -8,7 +8,7 @@
                 <div class="col-md-3">
                     <div class="btn-group btn-group-lg btn-group-vertical" role="group">
 
-                        <button class="btn btn-warning" type="button" onclick="location.href='/myPage/main' ">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/myPage/myShoppingInfo' ">
                             쇼핑정보
                         </button>
                         <button class="btn btn-warning" type="button">
