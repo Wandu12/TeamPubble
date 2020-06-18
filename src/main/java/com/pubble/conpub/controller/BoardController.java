@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.awt.print.Pageable;
 
 @Controller
-@RequestMapping("/board") //공지/QNA/견적 순서대로 1/2/3번
+//공지/QNA/견적 순서대로 1/2/3번
 public class BoardController {
 
     @Autowired

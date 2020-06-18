@@ -17,10 +17,6 @@ import java.util.List;
         initialValue = 1,
         allocationSize = 1
 )
-@Table //
-@Builder //
-@AllArgsConstructor //
-@NoArgsConstructor //
 public class Member implements Serializable { //Serializable +
 
     @Id

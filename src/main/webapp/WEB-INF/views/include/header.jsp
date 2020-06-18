@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,32 +24,46 @@
 		
 <!-- 여기부터 header -->
 		<header>
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="nav-item" >
-					<a class="nav-link active" href="#">로그인</a>
-				</li>
+			<nav class="navbar navbar-expand-md navbar-light navbar-fixed-top bg-warning">
+<!-- 작은 네비게이션 바(최상단) 우측정렬 필요 navbar-right로 함 -->
+				<ul class="nav navbar-nav navbar-right">
+					<c:if test="${empty sessionScope.member.memberId}">
+						<li class="nav-item" >
+							<a class="nav-link active" href="/member/login">로그인</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/member/rule">회원가입</a>
+						</li>
 
-				<li class="nav-item">
-					<a class="nav-link" href="#">회원가입</a>
-				</li>
+					</c:if>
+					<c:if test="${!empty sessionScope.member.memberId}">
+						<li class="nav-item" >
+							<a class="nav-link active" href="#"><font color="yellow">${sessionScope.member.memberName}</font>님</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/member/logout">로그아웃</a>
+						</li>
+					</c:if>
 
-				<li class="nav-item">
-					<a class="nav-link" href="#">장바구니</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">고객센터</a>
-				</li>
-			</ul>
-            </nav>
+					<li class="nav-item">
+						<a class="nav-link" href="#">장바구니</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/mypage">마이페이지</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">고객센터</a>
+					</li>
+				</ul>
+			</nav>
 
-			<nav class="navbar navbar-expand-lg navbar-light bg-warning static-top">
-				 
+			<nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="navbar-toggler-icon"></span>
-
-<!-- 지금 로고 이미지 넣었는데 깨짐-->
-				</button> <a class="navbar-brand" href="#"> <img src="${pageContext.request.contextPath}/webapp/WEB-INF/images/conpub-logo-e.png" alt="Logo" style="width:170px;"> </a>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="https://ifh.cc/g/dveBaH.png" alt="Logo" style="width:170px;">
+				</a>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="navbar-nav">
 						<li class="nav-item dropdown">
@@ -73,8 +88,9 @@
 						</li>
 					</ul>
 					<form class="form-inline">
-						<input class="form-control mr-sm-2" type="text"> 
-						<button class="btn btn-primary my-2 my-sm-0" type="submit">
+						<input class="form-control mr-sm-2" type="text">
+<!-- 검색 버튼 테두리에 파랗게 뜨는 것 border="0" 주는 법 찾아서 없애야 함 -->
+						<button class="btn btn-primary my-2 my-sm-0 bg-warning" border="0" type="submit">
 							검색
 						</button>
 					</form>
