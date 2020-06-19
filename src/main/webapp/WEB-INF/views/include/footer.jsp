@@ -4,9 +4,10 @@
 		<footer style="text-align:center">	
 			<br/>
 			<address>
-				<strong>Conpub, Inc.</strong><br><span>본 사이트의 컨텐츠는 저작권법의 보호를 받으므로 복사, 배포 등을 금합니다. CONTACT US</span> <em>conpub.contact@gmail.com</em> <span>COPYRIGHT © 2020 CONPUB ALL RIGHTS RESERVED.</span>
+				<strong>Conpub, Inc.</strong><br><span>본 사이트의 컨텐츠는 저작권법의 보호를 받으므로 복사, 배포 등을 금합니다.
+				<br>CONTACT US</span> <a href="mailto:conpub.contact@gmail.com" title="[CONPUB]문의합니다."><em>conpub.contact@gmail.com</em> </a>
+				<span><br>COPYRIGHT © 2020 CONPUB ALL RIGHTS RESERVED.</span>
 			</address>
-			
 		</footer>	
 		
 		</div>

@@ -1,6 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
-<%@include file ="../include/header.jsp" %>
+         pageEncoding="UTF-8" %>
+<%@include file="../include/header.jsp" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<!-- section -->
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
@@ -25,23 +28,30 @@
                     </div>
                 </div>
                 <div class="col-md-9">
+<!-- 장바구니 - 테이블 수정 필요 -->
                     <h3>
-                        마일리지
+                        장바구니
                     </h3>
-                    <table class="table table-hover table-striped">
+                    <table class="table table-hover">
                         <thead>
                         <tr>
                             <th>
                                 #
                             </th>
                             <th>
-                                적립/사용금
+                                주문번호
                             </th>
                             <th>
-                                적립/사용내역
+                                상품명(메모)
                             </th>
                             <th>
-                                적립/사용일
+                                배송상태
+                            </th>
+                            <th>
+                                주문일
+                            </th>
+                            <th>
+                                리뷰
                             </th>
                         </tr>
                         </thead>
@@ -57,10 +67,12 @@
                                 01/04/2012
                             </td>
                             <td>
-                                Default
+                                <button type="button" class="btn btn-warning">
+                                    작성하기
+                                </button>
                             </td>
                         </tr>
-                        <tr class="table-active">
+                        <tr>
                             <td>
                                 1
                             </td>
@@ -74,7 +86,7 @@
                                 Approved
                             </td>
                         </tr>
-                        <tr class="table-success">
+                        <tr>
                             <td>
                                 2
                             </td>
@@ -88,7 +100,7 @@
                                 Declined
                             </td>
                         </tr>
-                        <tr class="table-warning">
+                        <tr>
                             <td>
                                 3
                             </td>
@@ -102,7 +114,7 @@
                                 Pending
                             </td>
                         </tr>
-                        <tr class="table-danger">
+                        <tr>
                             <td>
                                 4
                             </td>
@@ -148,4 +160,4 @@
         </div>
     </div>
 </div>
-<%@include file ="../include/footer.jsp" %>
+<%@include file="../include/footer.jsp" %>

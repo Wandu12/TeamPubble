@@ -36,17 +36,46 @@ public class MemberController {
         return "admin_member_infos";
     }
 
+    //메인페이지 (위치를 어디에 놓을지?)
+    @GetMapping("/index")
+    public String index(Model model) {
+        return "index";
+    }
+
     //Mypage 관련
-    @GetMapping("/mypage")
+    @GetMapping({"/mypage", "/shoppingInfo"})
     public String mypage(Model model) {
-        
         //필요한 처리
 
         return "mypage/myShoppingInfo";
     }
 
-    @GetMapping("/index")
-    public String index(Model model) {
-        return "index";
+    @GetMapping("/cart")
+    public String cart(Model model) {
+        //필요한 처리
+
+        return "mypage/myCart";
     }
+
+    @GetMapping("/mileage")
+    public String mileage(Model model) {
+        //필요한 처리
+
+        return "mypage/myMileage";
+    }
+
+    @GetMapping("/updateInfo")
+    public String updateInfo(Model model) {
+        //필요한 처리
+
+        return "mypage/updateMyInfo";
+    }
+
+    @GetMapping("/unsubscribe")
+    public String unsubscribe(Model model) {
+        //필요한 처리
+
+        return "mypage/unsubscribe";
+    }
+
 }
