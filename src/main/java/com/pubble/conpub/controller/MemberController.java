@@ -44,4 +44,9 @@ public class MemberController {
 
         return "mypage/myShoppingInfo";
     }
+
+    @GetMapping("/index")
+    public String index(Model model) {
+        return "index";
+    }
 }

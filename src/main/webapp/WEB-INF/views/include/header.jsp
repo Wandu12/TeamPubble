@@ -61,7 +61,7 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="./index">
 					<img src="https://ifh.cc/g/dveBaH.png" alt="Logo" style="width:170px;">
 				</a>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
