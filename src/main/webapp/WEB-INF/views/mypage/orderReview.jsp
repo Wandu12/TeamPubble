@@ -19,7 +19,7 @@
         <label for="exampleFormControlTextarea1">내용</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" name="contents" rows="10"></textarea>
     </div>
-    <button type="submit" class="btn btn-info">등록하기</button>
+    <button type="submit" class="btn btn-warning">등록하기</button>
     <button type="button" class="btn btn-secondary">목록으로</button>
 </form>
 

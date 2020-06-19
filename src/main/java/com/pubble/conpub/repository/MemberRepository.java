@@ -29,5 +29,40 @@ public class MemberRepository {
         return em.find(Member.class, id);
     }
 
-    //
+
+    public List<Member> findByNameEmail(String name, String email){
+        return  em.createQuery("select m from Member m where m.memberName=:name and m.memberEmail=:email",Member.class)
+                .setParameter("name",name).setParameter("email",email)
+                .getResultList();
+    }
+
+    public Member findByIdPwd(String id, String pwd){
+        return em.createQuery("select m from Member m where m.memberId=:id and m.memberPwd=:pwd",Member.class)
+                .setParameter("id",id).setParameter("pwd",pwd)
+                .getSingleResult();
+    }
+
+    public Member findMemberId(String name, String email){
+
+        try{
+            return em.createQuery("select m from Member m where m.memberName=:name and m.memberEmail=:email", Member.class)
+                    .setParameter("name", name).setParameter("email", email)
+                    .getSingleResult();
+        }catch (Exception e){
+            return null;
+        }
+    }
+
+    public Member findMemberPwd(String id, String email){
+
+        try {
+            return em.createQuery("select m from Member m where m.memberId=: id and m.memberEmail=: email",Member.class)
+                    .setParameter("id",id).setParameter("email",email)
+                    .getSingleResult();
+        }catch (Exception e){
+            return null;
+        }
+    }
+
+
 }

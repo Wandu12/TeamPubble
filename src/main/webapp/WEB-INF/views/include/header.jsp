@@ -89,8 +89,7 @@
 					</ul>
 					<form class="form-inline">
 						<input class="form-control mr-sm-2" type="text">
-<!-- 검색 버튼 테두리에 파랗게 뜨는 것 border="0" 주는 법 찾아서 없애야 함 -->
-						<button class="btn btn-primary my-2 my-sm-0 bg-warning" border="0" type="submit">
+						<button class="btn btn-warning my-2 my-sm-0 bg-warning" type="submit">
 							검색
 						</button>
 					</form>
