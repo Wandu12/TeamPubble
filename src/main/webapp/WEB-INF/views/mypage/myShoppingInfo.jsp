@@ -1,33 +1,37 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
-<%@include file ="../include/header.jsp" %>
+         pageEncoding="UTF-8" %>
+<%@include file="../include/header.jsp" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!-- section -->
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <h3>
-                쇼핑정보
-            </h3>
             <div class="row">
                 <div class="col-md-3">
                     <div class="btn-group btn-group-lg btn-group-vertical" role="group">
-
-                        <button class="btn btn-warning" type="button" onclick="location.href='/myPage/myShoppingInfo' ">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/shoppingInfo'">
                             쇼핑정보
                         </button>
-                        <button class="btn btn-warning" type="button">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/cart'">
+                            장바구니
+                        </button>
+                        <button class="btn btn-warning" type="button" onclick="location.href='/mileage'">
                             마일리지
                         </button>
-                        <button class="btn btn-warning" type="button">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/updateInfo'">
                             회원정보수정
                         </button>
-                        <button class="btn btn-warning" type="button">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/unsubscribe'">
                             회원탈퇴
                         </button>
                     </div>
                 </div>
                 <div class="col-md-9">
+<!-- 주문내역 수정 필요 -->
+                    <h3>
+                        쇼핑정보
+                    </h3>
                     <table class="table table-hover">
                         <thead>
                         <tr>
@@ -68,7 +72,7 @@
                                 </button>
                             </td>
                         </tr>
-                        <tr class="table-active">
+                        <tr>
                             <td>
                                 1
                             </td>
@@ -82,7 +86,7 @@
                                 Approved
                             </td>
                         </tr>
-                        <tr class="table-success">
+                        <tr>
                             <td>
                                 2
                             </td>
@@ -96,7 +100,7 @@
                                 Declined
                             </td>
                         </tr>
-                        <tr class="table-warning">
+                        <tr>
                             <td>
                                 3
                             </td>
@@ -110,7 +114,7 @@
                                 Pending
                             </td>
                         </tr>
-                        <tr class="table-danger">
+                        <tr>
                             <td>
                                 4
                             </td>
@@ -156,4 +160,4 @@
         </div>
     </div>
 </div>
-<%@include file ="../include/footer.jsp" %>
+<%@include file="../include/footer.jsp" %>

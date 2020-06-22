@@ -14,7 +14,7 @@ import java.util.List;
 @SequenceGenerator(
         name = "MEMBER_SEQ_GEN",
         sequenceName = "MEMBER_SEQ",
-        initialValue = 1,
+        initialValue = 1000, //1000부터 일반회원
         allocationSize = 1
 )
 public class Member implements Serializable { //Serializable +

@@ -14,6 +14,7 @@
 
 	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
     <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 
   </head>
   <body>
@@ -38,7 +39,8 @@
 					</c:if>
 					<c:if test="${!empty sessionScope.member.memberId}">
 						<li class="nav-item" >
-							<a class="nav-link active" href="#"><font color="yellow">${sessionScope.member.memberName}</font>님</a>
+							<a class="nav-link active" href="/mypage" >
+								<font color="yellow">${sessionScope.member.memberName}</font>님</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="/member/logout">로그아웃</a>

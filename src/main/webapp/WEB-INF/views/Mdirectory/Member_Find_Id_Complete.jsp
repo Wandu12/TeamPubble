@@ -1,4 +1,4 @@
-<%@include file ="../header.jsp" %>
+<%@include file ="../include/header.jsp" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 
@@ -11,4 +11,4 @@
     <button onclick="location.href='/member/find/pwd'">비밀번호 찾기</button>
 
 </div>
-<%@include file ="../footer.jsp" %>
+<%@include file ="../include/footer.jsp" %>
