@@ -20,7 +20,7 @@ public class MileageRepository {
     public void save(Mileage mileage) {
         em.persist(mileage);
     }
-/////////////
+
     public List<Mileage> readMileage(Member member) { //마일리지 내역(해당 id의 Mileage 칼럼들로 이루어진 리스트)이 필요
         return em.createQuery("select m from Mileage m where m.mileageMember= :member", Mileage.class)
                 .setParameter("member", member).getResultList();
@@ -32,7 +32,6 @@ public class MileageRepository {
             return em.createQuery("select m from Member m where m.memberId=:userId", Member.class)
                     .setParameter("userId", userId).getSingleResult();
         }catch (Exception e){
-            System.out.println("======오류났음======");
             return null;
         }
     }
