@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
+<%@ taglib prefix="c"   uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file ="../include/header.jsp" %>
 <div class="container-fluid">
     <div class="row">
@@ -13,7 +14,7 @@
                         <button class="btn btn-warning" type="button" onclick="location.href='/cart'">
                             장바구니
                         </button>
-                        <button class="btn btn-warning" type="button" onclick="location.href='/mileage'">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/mileage?id=${sessionScope.member.memberId}'">
                             마일리지
                         </button>
                         <button class="btn btn-warning" type="button" onclick="location.href='/updateInfo'">
@@ -28,95 +29,34 @@
                     <h3>
                         마일리지
                     </h3>
-                    <table class="table table-hover table-striped">
+                    <table class="table table-hover">
                         <thead>
                         <tr>
-                            <th>
-                                #
-                            </th>
-                            <th>
-                                적립/사용금
-                            </th>
-                            <th>
-                                적립/사용내역
-                            </th>
-                            <th>
-                                적립/사용일
-                            </th>
+                            <th class="text-center">No.</th>
+                            <th class="text-center">변동내역</th>
+                            <th class="text-center">사용액수</th>
+                            <th class="text-center">변동일자</th>
                         </tr>
                         </thead>
-                        <tbody>
-                        <tr>
-                            <td>
-                                1
-                            </td>
-                            <td>
-                                TB - Monthly
-                            </td>
-                            <td>
-                                01/04/2012
-                            </td>
-                            <td>
-                                Default
-                            </td>
-                        </tr>
-                        <tr class="table-active">
-                            <td>
-                                1
-                            </td>
-                            <td>
-                                TB - Monthly
-                            </td>
-                            <td>
-                                01/04/2012
-                            </td>
-                            <td>
-                                Approved
-                            </td>
-                        </tr>
-                        <tr class="table-success">
-                            <td>
-                                2
-                            </td>
-                            <td>
-                                TB - Monthly
-                            </td>
-                            <td>
-                                02/04/2012
-                            </td>
-                            <td>
-                                Declined
-                            </td>
-                        </tr>
-                        <tr class="table-warning">
-                            <td>
-                                3
-                            </td>
-                            <td>
-                                TB - Monthly
-                            </td>
-                            <td>
-                                03/04/2012
-                            </td>
-                            <td>
-                                Pending
-                            </td>
-                        </tr>
-                        <tr class="table-danger">
-                            <td>
-                                4
-                            </td>
-                            <td>
-                                TB - Monthly
-                            </td>
-                            <td>
-                                04/04/2012
-                            </td>
-                            <td>
-                                Call in to confirm
-                            </td>
-                        </tr>
-                        </tbody>
+                        <c:set var="mileageList" value="${mileageList }" />
+                        <c:if test="${!empty mileageList }"> //list
+                            <c:forEach var = "i" begin = "0" end ="${mileageList.size()-1 }">
+                                <!--<c:set var = "mdto" value="${mileageList.get(i) }" /> -->
+                                <tr class="notice" style="background-color: beige;">
+                                    <td>${mileageList.getId() }</td>
+                                    <td>${mileageList.getMileagePath() }</td>
+                                    <td>${mileageList.getMileage() }</td>
+                                    <td>${mileageList.getMileageDate().substring(0,10) }</td>
+                                </tr>
+                            </c:forEach>
+                        </c:if>
+                        <c:if test ="${empty mileageList }">
+                            <tr>
+                                <td colspan="5" align="center">
+                                    <h3>서버 오류입니다. 새로고침하거나 고객센터에 문의하세요</h3>
+                                </td>
+                            </tr>
+                        </c:if>
                     </table>
                 </div>
             </div>

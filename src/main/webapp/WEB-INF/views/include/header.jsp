@@ -51,7 +51,7 @@
 						<a class="nav-link" href="#">장바구니</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/mypage">마이페이지</a>
+						<a class="nav-link" href="/mypage?id=${sessionScope.member.memberId}">마이페이지</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">고객센터</a>

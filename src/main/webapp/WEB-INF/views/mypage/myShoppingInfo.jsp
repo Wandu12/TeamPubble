@@ -16,7 +16,7 @@
                         <button class="btn btn-warning" type="button" onclick="location.href='/cart'">
                             장바구니
                         </button>
-                        <button class="btn btn-warning" type="button" onclick="location.href='/mileage'">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/mileage?id=${sessionScope.member.memberId}'">
                             마일리지
                         </button>
                         <button class="btn btn-warning" type="button" onclick="location.href='/updateInfo'">

@@ -43,7 +43,6 @@ public class MemberRepository {
     }
 
     public Member findMemberId(String name, String email){
-
         try{
             return em.createQuery("select m from Member m where m.memberName=:name and m.memberEmail=:email", Member.class)
                     .setParameter("name", name).setParameter("email", email)
@@ -54,7 +53,6 @@ public class MemberRepository {
     }
 
     public Member findMemberPwd(String id, String email){
-
         try {
             return em.createQuery("select m from Member m where m.memberId=: id and m.memberEmail=: email",Member.class)
                     .setParameter("id",id).setParameter("email",email)
