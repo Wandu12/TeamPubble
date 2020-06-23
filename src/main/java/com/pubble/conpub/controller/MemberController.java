@@ -41,9 +41,7 @@ public class MemberController {
         return "admin_member_infos";
     }
 
-
-
-    //메인페이지 (위치를 어디에 놓을지?)
+    //메인페이지
     @GetMapping("/index")
     public String index(Model model) {
         return "index";
@@ -51,7 +49,7 @@ public class MemberController {
 
     //Mypage 관련
     @GetMapping({"/mypage", "/shoppingInfo"})
-    public String mypage(Model model) {
+    public String mypage(Model model) { //@RequestParam("id") Long id
         //필요한 처리
 
         return "mypage/myShoppingInfo";
@@ -62,13 +60,6 @@ public class MemberController {
         //필요한 처리
 
         return "mypage/myCart";
-    }
-
-    @GetMapping("/mileage")
-    public String mileage(Model model) {
-        //필요한 처리
-
-        return "mypage/myMileage";
     }
 
     @GetMapping("/updateInfo")
