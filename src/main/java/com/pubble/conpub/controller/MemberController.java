@@ -47,13 +47,7 @@ public class MemberController {
         return "index";
     }
 
-    //Mypage 관련
-    @GetMapping({"/mypage", "/shoppingInfo"})
-    public String mypage(Model model) { //@RequestParam("id") Long id
-        //필요한 처리
 
-        return "mypage/myShoppingInfo";
-    }
 
     @GetMapping("/cart")
     public String cart(Model model) {

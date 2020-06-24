@@ -3,32 +3,34 @@
 <%@ taglib prefix="c"   uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib uri="http://sargue.net/jsptags/time" prefix="javatime" %>
-<%@include file ="../include/header.jsp" %>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
       type="text/css"/>
-<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js">
-
-</script>
+<%@include file ="../include/header.jsp" %>
 <script>
-    $('mileageTable').DataTable({
-       data: data,
-       columns: [
-           { "data": 'id' },
-           { "data": 'mileagePath' },
-           { "data": 'mileage' },
-           { "data": 'mileageDate' },
-       ]
-    });
-
     $(document).ready(function () {
         $('#mileageTable').DataTable({
             responsive: true,
             paging : true,
-            ordering : true,
+            ordering : false,
             info : true,
-            filter : true,
-            lengthChange : true,
-            order : [[0, "asc"]]
+            filter : false,
+            lengthChange : false,
+            order : [[0, "asc"]],
+            language: {
+                "emptyTable": "데이터가 없어요.",
+                "lengthMenu": "페이지당 _MENU_ 개씩 보기",
+                "info": "_START_ - _END_ / _TOTAL_건",
+                "infoEmpty": "데이터 없음",
+                "infoFiltered": "( _MAX_건의 데이터에서 필터링됨 )",
+                "search": "에서 검색: ",
+                "zeroRecords": "일치하는 데이터가 없어요.",
+                "loadingRecords": "로딩중...",
+                "processing":     "잠시만 기다려 주세요...",
+                "paginate": {
+                    "next": "다음",
+                    "previous": "이전"
+                }
+            }
         });
     });
 </script>
@@ -90,33 +92,21 @@
                     </table>
                 </div>
             </div>
-<!-- 마일리지 페이징 해야 함-->
-            <nav>
-                <ul class="pagination">
-                    <li class="page-item">
-                        <a class="page-link" href="#">Previous</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">4</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">5</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </div>
 </div>
 <%@include file ="../include/footer.jsp" %>
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"/>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" type="text/javascript"/>
+
+<script>
+    $('mileageTable').DataTable({
+        data: data,
+        columns: [
+            { "data": 'id' },
+            { "data": 'mileagePath' },
+            { "data": 'mileage' },
+            { "data": 'mileageDate' },
+        ]
+    });
+</script>
