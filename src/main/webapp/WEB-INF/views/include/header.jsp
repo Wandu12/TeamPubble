@@ -32,7 +32,7 @@
 				<c:choose>
 					<c:when test="${!empty sessionScope.member.memberId}">
 						<li class="nav-item" >
-							<a class="nav-link active" href="#"><font color="yellow">${sessionScope.member.memberName}</font>님</a>
+							<a class="nav-link active" href="/mypage?id=${sessionScope.member.memberId}"><font color="yellow">${sessionScope.member.memberName}</font>님</a>
 						</li>
 
 						<li class="nav-item">
@@ -41,7 +41,7 @@
 					</c:when>
 					<c:when test="${!empty sessionId}">
 						<li class="nav-item" >
-							<a class="nav-link active" href="/mypage"><font color="yellow">${sessionId}</font>님</a>
+							<a class="nav-link active" href="/mypage?id=${sessionScope.member.memberId}"><font color="yellow">${sessionId}</font>님</a>
 						</li>
 
 						<li class="nav-item">
@@ -60,10 +60,10 @@
 				</c:choose>
 
 				<li class="nav-item">
-					<a class="nav-link" href="#">장바구니</a>
+					<a class="nav-link" href="/cart?id=${sessionScope.member.memberId}">장바구니</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/mypage">마이페이지</a>
+					<a class="nav-link" href="/mypage?id=${sessionScope.member.memberId}">마이페이지</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">고객센터</a>

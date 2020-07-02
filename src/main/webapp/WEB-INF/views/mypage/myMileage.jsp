@@ -14,7 +14,7 @@
             info : true,
             filter : false,
             lengthChange : false,
-            order : [[0, "asc"]],
+            order : [[0, "desc"]],
             language: {
                 "emptyTable": "데이터가 없어요.",
                 "lengthMenu": "페이지당 _MENU_ 개씩 보기",
@@ -40,19 +40,19 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="btn-group btn-group-lg btn-group-vertical" role="group">
-                        <button class="btn btn-warning" type="button" onclick="location.href='/shoppingInfo'">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/shoppingInfo?id=${sessionScope.member.memberId}'">
                             쇼핑정보
                         </button>
-                        <button class="btn btn-warning" type="button" onclick="location.href='/cart'">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/cart?id=${sessionScope.member.memberId}'">
                             장바구니
                         </button>
                         <button class="btn btn-warning" type="button" onclick="location.href='/mileage?id=${sessionScope.member.memberId}'">
                             마일리지
                         </button>
-                        <button class="btn btn-warning" type="button" onclick="location.href='/updateInfo'">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/updateInfo?id=${sessionScope.member.memberId}'">
                             회원정보수정
                         </button>
-                        <button class="btn btn-warning" type="button" onclick="location.href='/unsubscribe'">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/unsubscribe?id=${sessionScope.member.memberId}'">
                             회원탈퇴
                         </button>
                     </div>
