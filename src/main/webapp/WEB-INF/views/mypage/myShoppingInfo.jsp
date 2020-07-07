@@ -50,7 +50,7 @@
                         <button class="btn btn-warning" type="button" onclick="location.href='/mileage?id=${sessionScope.member.memberId}'">
                             마일리지
                         </button>
-                        <button class="btn btn-warning" type="button" onclick="location.href='/updateInfo?id=${sessionScope.member.memberId}'">
+                        <button class="btn btn-warning" type="button" onclick="location.href='/updateInfo?id=${sessionScope.member.id}'">
                             회원정보수정
                         </button>
                         <button class="btn btn-warning" type="button" onclick="location.href='/unsubscribe?id=${sessionScope.member.memberId}'">
@@ -92,38 +92,13 @@
                         <c:if test ="${empty shoppingInfo }">
                             <tr>
                                 <td colspan="5" align="center">
-                                    <h3>서버 오류입니다. 새로고침하거나 고객센터에 문의하세요</h3>
+                                    <h3>쇼핑 내역 불러오기에 실패했습니다. <br>새로고침하거나 고객센터에 문의하세요</h3>
                                 </td>
                             </tr>
                         </c:if>
                     </table>
                 </div>
             </div>
-            <nav>
-                <ul class="pagination">
-                    <li class="page-item">
-                        <a class="page-link" href="#">Previous</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">4</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">5</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </div>
 </div>

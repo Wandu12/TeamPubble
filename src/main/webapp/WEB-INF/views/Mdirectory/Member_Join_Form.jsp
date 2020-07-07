@@ -295,7 +295,7 @@
             }
         })  // pwd1 관련 체크 end
 
-        $("#pwd2").blur(function () {
+        $("#pwd2").blur(function () { //포커스를 잃으면(다음 칸으로 넘어가면)
 
             if($("#pwd2").val() == ""){  // 공백 체크
                 var ment = '<font color="red" >필수 입력사항입니다.</font>';

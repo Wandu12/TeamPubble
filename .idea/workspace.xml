@@ -25,84 +25,71 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/develop" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:upstream/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c16a36-6d5d-426f-953a-527fcec3035d" name="Default Changelist" comment="Add OrderController">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/MileageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/item.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/item_option.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/mileage.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/option_list.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/c001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/c002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/c003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/conpub-logo-e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Mdirectory/Member_Find_Id_Complete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Mdirectory/Member_Find_Id_Form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Mdirectory/Member_Find_Pwd_Form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Mdirectory/Member_Join_Check.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Mdirectory/Member_Join_Complete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Mdirectory/Member_Join_Form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Mdirectory/Member_Rule.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Mdirectory/Member_login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/myCart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/myMileage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/myShoppingInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/mypageGroupHeader.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/orderReview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/unsubscribe.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/updateMyInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productPortfolio.jsp" afterDir="false" />
+    <list default="true" id="78c16a36-6d5d-426f-953a-527fcec3035d" name="Default Changelist" comment="Feature user update feat">
+      <change afterPath="$PROJECT_DIR$/build/resources/main/sql/mileage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/myPage/userInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2020-06-15__12_39__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2020-06-15_오후_12_39_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/domain/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/domain/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/domain/Item.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/domain/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/domain/Mileage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/domain/Mileage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/domain/OptionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/domain/OptionList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/domain/SelectedOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/domain/SelectedOption.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/repository/CartRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/repository/ItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/repository/ItemRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/repository/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/repository/MemberRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/repository/MileageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/repository/MileageRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/repository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/repository/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/service/DeliveryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/service/DeliveryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/service/ItemService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/service/MemberService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/service/MileageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pubble/conpub/service/MileageService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/sist/jpashop/HelloController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/MileageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/MileageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/MileageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/service/MileageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/sql/item.sql" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/sql/item.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/sql/option_list.sql" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/sql/option_list.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/MypageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pubble/conpub/controller/MypageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Mdirectory/Member_Join_Form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Mdirectory/Member_Join_Form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/myPage/myShoppingInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/myPage/myShoppingInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/myMileage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/myMileage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/updateMyInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mypage/updateMyInfo.jsp" afterDir="false" />
     </list>
     <list id="4e5348a5-e72a-4b7d-a736-571b4c6f759b" name="Revert &quot;initial commit&quot;" comment="Revert &quot;initial commit&quot;&#10;&#10;This reverts commit 8a7f0e2a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -177,14 +164,18 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/images" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\NCS\TeamPubble\src\main\webapp\WEB-INF\views\Mdirectory" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\NCS\TeamPubble\src\main\resources\static\images" />
       <recent name="C:\NCS\workspace(boot)\conpub\build\resources\main" />
     </key>
   </component>
@@ -214,6 +205,9 @@
       <workItem from="1592210472408" duration="527000" />
       <workItem from="1592266416302" duration="211000" />
       <workItem from="1592266717969" duration="2582000" />
+      <workItem from="1593493940232" duration="12763000" />
+      <workItem from="1593657632647" duration="29172000" />
+      <workItem from="1594081698956" duration="5013000" />
     </task>
     <task id="LOCAL-00001" summary="comm">
       <created>1591863399057</created>
@@ -299,7 +293,42 @@
       <option name="project" value="LOCAL" />
       <updated>1592267468566</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Revert files">
+      <created>1593152021890</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593152021890</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Merge Workspace">
+      <created>1593153940256</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593153940256</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fix MileageController">
+      <created>1593398925571</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593398925571</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update member feature">
+      <created>1593502402538</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593502402538</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix path error">
+      <created>1593671698870</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593671698870</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +375,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/develop" />
+                        <option value="upstream/master" />
                       </list>
                     </value>
                   </entry>
@@ -394,13 +423,22 @@
     <MESSAGE value="2020.06.15-2" />
     <MESSAGE value="2020.06.15 Domains" />
     <MESSAGE value="Add domains, repositories and services &#10;&#10;It provides save functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add domains, repositories and services &#10;&#10;It provides save functions." />
+    <MESSAGE value="Revert files" />
+    <MESSAGE value="Merge Workspace" />
+    <MESSAGE value="Fix MileageController" />
+    <MESSAGE value="Update member feature" />
+    <MESSAGE value="Fix path error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix path error" />
   </component>
   <component name="WindowStateProjectService">
     <state x="857" y="409" key="#Assign_Data_Sources" timestamp="1591941971700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="857" y="409" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1591941971700" />
+    <state x="346" y="214" key="#Console" timestamp="1593501202102">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="346" y="214" key="#Console/62.0.1858.1080@62.0.1858.1080" timestamp="1593501202102" />
     <state x="552" y="178" width="1115" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592201093645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -425,11 +463,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="550" y="74" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592268991945" />
-    <state x="238" y="139" width="1484" height="892" key="DiffContextDialog" timestamp="1593151873161">
+    <state x="82" y="97" width="1484" height="892" maximized="true" key="DiffContextDialog" timestamp="1593389557803">
       <screen x="64" y="0" width="1856" height="1080" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592192265785" />
-    <state x="238" y="139" width="1484" height="892" key="DiffContextDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1593151873161" />
+    <state x="82" y="97" width="1484" height="892" maximized="true" key="DiffContextDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1593389557803" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592268362137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -446,46 +484,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="221" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591863010431" />
-    <state width="1376" height="288" key="GridCell.Tab.0.bottom" timestamp="1593151370669">
-      <screen x="64" y="0" width="1856" height="1080" />
+    <state width="1465" height="237" key="GridCell.Tab.0.bottom" timestamp="1594086369944">
+      <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592210462011" />
-    <state width="1376" height="288" key="GridCell.Tab.0.bottom/64.0.1856.1080@64.0.1856.1080" timestamp="1593151370669" />
-    <state width="1376" height="288" key="GridCell.Tab.0.center" timestamp="1593151370669">
-      <screen x="64" y="0" width="1856" height="1080" />
+    <state width="1815" height="239" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1593593437092" />
+    <state width="1465" height="237" key="GridCell.Tab.0.bottom/63.0.1857.1080@63.0.1857.1080" timestamp="1594086369944" />
+    <state width="1533" height="242" key="GridCell.Tab.0.bottom/64.0.1856.1080@64.0.1856.1080" timestamp="1593766305037" />
+    <state width="1465" height="237" key="GridCell.Tab.0.center" timestamp="1594086369944">
+      <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592210462011" />
-    <state width="1376" height="288" key="GridCell.Tab.0.center/64.0.1856.1080@64.0.1856.1080" timestamp="1593151370669" />
-    <state width="1376" height="288" key="GridCell.Tab.0.left" timestamp="1593151370669">
-      <screen x="64" y="0" width="1856" height="1080" />
+    <state width="1815" height="239" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1593593437092" />
+    <state width="1465" height="237" key="GridCell.Tab.0.center/63.0.1857.1080@63.0.1857.1080" timestamp="1594086369944" />
+    <state width="1533" height="242" key="GridCell.Tab.0.center/64.0.1856.1080@64.0.1856.1080" timestamp="1593766305037" />
+    <state width="1465" height="237" key="GridCell.Tab.0.left" timestamp="1594086369943">
+      <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592210462011" />
-    <state width="1376" height="288" key="GridCell.Tab.0.left/64.0.1856.1080@64.0.1856.1080" timestamp="1593151370669" />
-    <state width="1376" height="288" key="GridCell.Tab.0.right" timestamp="1593151370669">
-      <screen x="64" y="0" width="1856" height="1080" />
+    <state width="1815" height="239" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1593593437092" />
+    <state width="1465" height="237" key="GridCell.Tab.0.left/63.0.1857.1080@63.0.1857.1080" timestamp="1594086369943" />
+    <state width="1533" height="242" key="GridCell.Tab.0.left/64.0.1856.1080@64.0.1856.1080" timestamp="1593766305037" />
+    <state width="1465" height="237" key="GridCell.Tab.0.right" timestamp="1594086369944">
+      <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592210462011" />
-    <state width="1376" height="288" key="GridCell.Tab.0.right/64.0.1856.1080@64.0.1856.1080" timestamp="1593151370669" />
-    <state width="1376" height="288" key="GridCell.Tab.1.bottom" timestamp="1593151370669">
-      <screen x="64" y="0" width="1856" height="1080" />
+    <state width="1815" height="239" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1593593437092" />
+    <state width="1465" height="237" key="GridCell.Tab.0.right/63.0.1857.1080@63.0.1857.1080" timestamp="1594086369944" />
+    <state width="1533" height="242" key="GridCell.Tab.0.right/64.0.1856.1080@64.0.1856.1080" timestamp="1593766305037" />
+    <state width="1465" height="237" key="GridCell.Tab.1.bottom" timestamp="1594086369944">
+      <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592210462011" />
-    <state width="1376" height="288" key="GridCell.Tab.1.bottom/64.0.1856.1080@64.0.1856.1080" timestamp="1593151370669" />
-    <state width="1376" height="288" key="GridCell.Tab.1.center" timestamp="1593151370669">
-      <screen x="64" y="0" width="1856" height="1080" />
+    <state width="1815" height="239" key="GridCell.Tab.1.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1593593437092" />
+    <state width="1465" height="237" key="GridCell.Tab.1.bottom/63.0.1857.1080@63.0.1857.1080" timestamp="1594086369944" />
+    <state width="1533" height="242" key="GridCell.Tab.1.bottom/64.0.1856.1080@64.0.1856.1080" timestamp="1593766305038" />
+    <state width="1087" height="287" key="GridCell.Tab.1.bottom/65.0.1855.1080@65.0.1855.1080" timestamp="1593420600176" />
+    <state width="1465" height="237" key="GridCell.Tab.1.center" timestamp="1594086369944">
+      <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592210462011" />
-    <state width="1376" height="288" key="GridCell.Tab.1.center/64.0.1856.1080@64.0.1856.1080" timestamp="1593151370669" />
-    <state width="1376" height="288" key="GridCell.Tab.1.left" timestamp="1593151370669">
-      <screen x="64" y="0" width="1856" height="1080" />
+    <state width="1815" height="239" key="GridCell.Tab.1.center/62.0.1858.1080@62.0.1858.1080" timestamp="1593593437092" />
+    <state width="1465" height="237" key="GridCell.Tab.1.center/63.0.1857.1080@63.0.1857.1080" timestamp="1594086369944" />
+    <state width="1533" height="242" key="GridCell.Tab.1.center/64.0.1856.1080@64.0.1856.1080" timestamp="1593766305037" />
+    <state width="1087" height="287" key="GridCell.Tab.1.center/65.0.1855.1080@65.0.1855.1080" timestamp="1593420600176" />
+    <state width="1465" height="237" key="GridCell.Tab.1.left" timestamp="1594086369944">
+      <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592210462011" />
-    <state width="1376" height="288" key="GridCell.Tab.1.left/64.0.1856.1080@64.0.1856.1080" timestamp="1593151370669" />
-    <state width="1376" height="288" key="GridCell.Tab.1.right" timestamp="1593151370669">
-      <screen x="64" y="0" width="1856" height="1080" />
+    <state width="1815" height="239" key="GridCell.Tab.1.left/62.0.1858.1080@62.0.1858.1080" timestamp="1593593437092" />
+    <state width="1465" height="237" key="GridCell.Tab.1.left/63.0.1857.1080@63.0.1857.1080" timestamp="1594086369944" />
+    <state width="1533" height="242" key="GridCell.Tab.1.left/64.0.1856.1080@64.0.1856.1080" timestamp="1593766305037" />
+    <state width="1087" height="287" key="GridCell.Tab.1.left/65.0.1855.1080@65.0.1855.1080" timestamp="1593420600176" />
+    <state width="1465" height="237" key="GridCell.Tab.1.right" timestamp="1594086369944">
+      <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state width="1877" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592210462011" />
-    <state width="1376" height="288" key="GridCell.Tab.1.right/64.0.1856.1080@64.0.1856.1080" timestamp="1593151370669" />
+    <state width="1815" height="239" key="GridCell.Tab.1.right/62.0.1858.1080@62.0.1858.1080" timestamp="1593593437092" />
+    <state width="1465" height="237" key="GridCell.Tab.1.right/63.0.1857.1080@63.0.1857.1080" timestamp="1594086369944" />
+    <state width="1533" height="242" key="GridCell.Tab.1.right/64.0.1856.1080@64.0.1856.1080" timestamp="1593766305037" />
+    <state width="1087" height="287" key="GridCell.Tab.1.right/65.0.1855.1080@65.0.1855.1080" timestamp="1593420600176" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1592198991905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -530,46 +588,64 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="389" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591926480820" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1592267512323">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="598" y="263" key="Vcs.Push.Dialog.v2" timestamp="1593671772788">
+      <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592267512323" />
-    <state x="274" y="191" width="1375" height="887" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593150480346">
+    <state x="597" y="263" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1593502412518" />
+    <state x="598" y="263" key="Vcs.Push.Dialog.v2/63.0.1857.1080@63.0.1857.1080" timestamp="1593671772788" />
+    <state x="598" y="263" key="Vcs.Push.Dialog.v2/64.0.1856.1080@64.0.1856.1080" timestamp="1593154004749" />
+    <state x="599" y="263" key="Vcs.Push.Dialog.v2/65.0.1855.1080@65.0.1855.1080" timestamp="1593398933559" />
+    <state x="274" y="191" width="1375" height="887" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593389557803">
       <screen x="64" y="0" width="1856" height="1080" />
     </state>
-    <state x="274" y="191" width="1375" height="887" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1593150480346" />
-    <state x="153" y="96" width="1679" height="889" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593150174850">
-      <screen x="64" y="0" width="1856" height="1080" />
+    <state x="274" y="191" width="1375" height="887" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1593389557803" />
+    <state x="152" y="96" width="1681" height="889" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594086928658">
+      <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592268363849" />
+    <state x="152" y="96" width="1681" height="889" key="com.intellij.history.integration.ui.views.FileHistoryDialog/63.0.1857.1080@63.0.1857.1080" timestamp="1594086928658" />
     <state x="153" y="96" width="1679" height="889" key="com.intellij.history.integration.ui.views.FileHistoryDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1593150174850" />
-    <state x="668" y="74" width="584" height="891" key="find.popup" timestamp="1592266926620">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="154" y="96" width="1679" height="889" key="com.intellij.history.integration.ui.views.FileHistoryDialog/65.0.1855.1080@65.0.1855.1080" timestamp="1593398534936" />
+    <state x="959" y="135" width="948" height="763" key="dock-window-1" timestamp="1594107885117">
+      <screen x="64" y="0" width="1856" height="1080" />
+    </state>
+    <state x="959" y="135" width="948" height="763" key="dock-window-1/64.0.1856.1080@64.0.1856.1080" timestamp="1594107885117" />
+    <state x="965" y="84" width="962" height="702" key="dock-window-1/65.0.1855.1080@65.0.1855.1080" timestamp="1593420395523" />
+    <state x="709" y="77" width="566" height="926" key="find.popup" timestamp="1594082588683">
+      <screen x="64" y="0" width="1856" height="1080" />
     </state>
     <state x="668" y="74" width="584" height="891" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592266926620" />
-    <state x="742" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1592192392754">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="709" y="77" width="566" height="926" key="find.popup/64.0.1856.1080@64.0.1856.1080" timestamp="1594082588683" />
+    <state x="710" y="77" width="565" height="926" key="find.popup/65.0.1855.1080@65.0.1855.1080" timestamp="1593402136759" />
+    <state x="64" y="204" key="git4idea.branch.GitSmartOperationDialog" timestamp="1593154382468">
+      <screen x="64" y="0" width="1856" height="1080" />
     </state>
     <state x="742" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592192392754" />
-    <state x="758" y="307" key="git4idea.merge.GitMergeDialog" timestamp="1591927219682">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="64" y="204" key="git4idea.branch.GitSmartOperationDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1593154382468" />
+    <state x="797" y="319" key="git4idea.merge.GitMergeDialog" timestamp="1593154755962">
+      <screen x="64" y="0" width="1856" height="1080" />
     </state>
     <state x="758" y="307" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591927219682" />
-    <state x="682" y="307" key="git4idea.merge.GitPullDialog" timestamp="1592192256182">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="797" y="319" key="git4idea.merge.GitMergeDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1593154755962" />
+    <state x="974" y="134" key="git4idea.merge.GitPullDialog" timestamp="1593154978578">
+      <screen x="64" y="0" width="1856" height="1080" />
     </state>
     <state x="682" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592192256182" />
-    <state x="760" y="419" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1592266526648">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="974" y="134" key="git4idea.merge.GitPullDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1593154978578" />
+    <state x="799" y="435" width="529" height="222" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1593153761866">
+      <screen x="64" y="0" width="1856" height="1080" />
     </state>
     <state x="760" y="419" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592266526648" />
+    <state x="799" y="435" width="529" height="222" key="git4idea.remote.GitConfigureRemotesDialog/64.0.1856.1080@64.0.1856.1080" timestamp="1593153761866" />
     <state x="773" y="414" key="git4idea.ui.GitResetDialog" timestamp="1592268022234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="414" key="git4idea.ui.GitResetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592268022234" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592269209698">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="667" y="234" width="672" height="705" key="search.everywhere.popup" timestamp="1593402129673">
+      <screen x="65" y="0" width="1855" height="1080" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592269209698" />
+    <state x="667" y="234" width="672" height="705" key="search.everywhere.popup/65.0.1855.1080@65.0.1855.1080" timestamp="1593402129673" />
   </component>
 </project>

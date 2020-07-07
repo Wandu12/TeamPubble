@@ -34,11 +34,36 @@
     });
 </script>
 
+<script>
+    var lateral = false;
+    function fixar() {
+
+        var element, name, arr;
+        element = document.getElementById("minhasidebar");
+
+        if (lateral) {
+            element.className = element.className.replace(
+                /\bposition-fixed\b/g, "");
+            lateral = false;
+        } else {
+
+            name = "position-fixed";
+            arr = element.className.split(" ");
+            if (arr.indexOf(name) == -1) {
+                element.className += " " + name;
+            }
+            lateral = true;
+        }
+
+    }
+</script>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-3">
+
                     <div class="btn-group btn-group-lg btn-group-vertical" role="group">
                         <button class="btn btn-warning" type="button" onclick="location.href='/shoppingInfo?id=${sessionScope.member.memberId}'">
                             쇼핑정보

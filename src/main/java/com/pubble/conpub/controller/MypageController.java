@@ -62,17 +62,13 @@ public class MypageController {
         return "mypage/myCart";
     }
 
+    //여태.... String id로 받았는데... 그럴 필요가 없었다..........
+    // 그냥 시퀀스 아이디로 받으면 되는거였다.....
     @GetMapping("/updateInfo")
-    public String updateInfo(Model model, @RequestParam("id") String id) {
-        return "mypage/updateMyInfo";
-    }
-
-    @GetMapping("/updateInfo-check")
-    public String updateInfoCheck(Model model) { //, @RequestParam String id, @RequestParam String pwd
+    public String updateInfo(Model model) { //, @RequestParam("id") Long id
         //비밀번호가 일치하는지 확인
         /*
         boolean result = memberService.checkPassword(id, pwd);
-
         //일치하면 수정 처리 후 마이페이지로 리다이렉트
         if(result) {
             memberService.updateMember(id); //수정가능한 사항: 비밀번호,
@@ -80,9 +76,13 @@ public class MypageController {
         }
         */
         //일치하지 않으면 '비밀번호를 올바르게 입력해주세요' 출력
+        //회원정보를 model 에 저장
 
+        return "mypage/updateMyInfo";
+    }
 
-       //회원정보를 model 에 저장
+    @GetMapping("/updateInfo-check")
+    public String updateInfoCheck(Model model) { //, @RequestParam String id, @RequestParam String pwd
 
         return "mypage/updateMyInfo";
     }
@@ -99,7 +99,7 @@ public class MypageController {
         //세션 무효화
         session.invalidate();
 
-        return "index";
+        return "redirect:/index";
     }
 
 }
